@@ -1,0 +1,51 @@
+.register{
+    height: calc(100vh - 50px);/*because top bar is 50 px*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(rgba(223, 215, 215, 0.2),rgba(75, 71, 71, 0.2)) , url("https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?cs=srgb&dl=pexels-aleksandar-pasaric-325185.jpg&fm=jpg");
+    background-size: cover;
+}
+
+.registertitle{
+    font-size: 50px;
+}
+
+.registerform{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerform > label{
+    margin: 10px 0;
+}
+
+.registerinput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+
+.registerbutton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.registerLoginbutton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: lightcoral;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
